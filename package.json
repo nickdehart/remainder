@@ -1,0 +1,33 @@
+{
+  "name": "remainder",
+  "version": "1.0.0",
+  "description": "Returns the remainder of dividing two integers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Nicholas DeHart (https://github.com/nickdehart)",
+  "license": "MIT",
+  "homepage": "https://github.com/nickdehart/remainder",
+  "contributors": [],
+  "repository": "nickdehart/remainder",
+  "bugs": {
+    "url": "https://github.com/nickdehart/remainder/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "array",
+    "count",
+    "filter",
+    "integer",
+    "math",
+    "numeric"
+  ]
+}
