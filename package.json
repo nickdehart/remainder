@@ -23,9 +23,7 @@
   "engines": {
     "node": ">=4"
   },
-  "dependencies": {
-    "remainder": "file:../remainder"
-  },
+  "dependencies": {},
   "keywords": [
     "array",
     "count",
