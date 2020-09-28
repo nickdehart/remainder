@@ -55,5 +55,5 @@ $ npm install && npm test
 
 ### License
 
-Copyright © 2018, [Nicholas DeHart](https://github.com/nickdehart).
+Copyright © 2020, [Nicholas DeHart](https://github.com/nickdehart).
 Released under the [MIT License](LICENSE).
