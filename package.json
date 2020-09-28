@@ -3,11 +3,8 @@
   "version": "0.1.0",
   "description": "Returns the remainder of dividing two integers.",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
-    "test": "node test.js"
+    "test": "node __test__/test.js"
   },
   "author": "Nicholas DeHart (https://github.com/nickdehart)",
   "license": "MIT",
@@ -29,7 +26,6 @@
   "dependencies": {
     "remainder": "file:../remainder"
   },
-  "devDependencies": {},
   "keywords": [
     "array",
     "count",
