@@ -9,19 +9,19 @@
 
 module.exports = function remainder(val1, val2) {
   if (!val1 || !val2) {
-    throw new Error("expected two arguments");
+    throw new Error("remainder: expected two arguments");
   }
   if (!Number.isInteger(+val1)) {
-    throw new Error("expected an integer");
+    throw new Error("remainder: expected an integer");
   }
   if (!Number.isSafeInteger(+val1)) {
-    throw new Error("value exceeds maximum safe integer");
+    throw new Error("remainder: value exceeds maximum safe integer");
   }
   if (!Number.isInteger(+val2)) {
-    throw new Error("expected an integer");
+    throw new Error("remainder: expected an integer");
   }
   if (!Number.isSafeInteger(+val2)) {
-    throw new Error("value exceeds maximum safe integer");
+    throw new Error("remainder: value exceeds maximum safe integer");
   }
   return val1 % val2;
 };
