@@ -1,4 +1,4 @@
-const remainder = require("./index");
+const remainder = require("remainder");
 
 console.log("'4' / '2' = ", remainder("4", "2")); //=> 0
 console.log("'2' / '4' = ", remainder("2", "4")); //=> 2
